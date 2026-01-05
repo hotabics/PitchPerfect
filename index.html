@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitch Perfect - AI Komunikācijas Treneris</title>
+    <meta name="description" content="Transformējam trauksmi darbībā caur AI asistentu. Speciāls, reāllaika atbalsts pārdošanai, intervijām un prezentācijām.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">🎤</span>
+                    <span class="logo-text">Pitch Perfect</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Funkcijas</a>
+                    <a href="#personas">Lietotāji</a>
+                    <a href="#pricing">Cenas</a>
+                    <a href="#" class="btn-primary-small">Sākt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">🚀 MVP Now Live</div>
+                <h1 class="hero-title">
+                    Transformējam <span class="gradient-text">trauksmi</span> <br>
+                    <span class="gradient-text">darbībā</span>
+                </h1>
+                <p class="hero-subtitle">
+                    AI komunikācijas treneris, kas pielāgojas tavai situācijai.<br>
+                    Reāllaika atbalsts pārdošanai. Sagatavošana intervijām. Ātrums prezentācijām.
+                </p>
+                <div class="hero-cta">
+                    <a href="#pricing" class="btn-primary">
+                        <span>Sākt Bezmaksas</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#demo" class="btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M6.66667 5L13.3333 10L6.66667 15V5Z" fill="currentColor"/>
+                        </svg>
+                        <span>Skatīt Demo</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">50%</div>
+                        <div class="stat-label">Mazāka trauksme</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">20min</div>
+                        <div class="stat-label">Līdz gatavai runai</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">AI režīmi personām</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="mockup-container">
+                    <div class="silent-companion-demo">
+                        <div class="demo-header">Silent Companion</div>
+                        <div class="traffic-light">
+                            <div class="light green active"></div>
+                        </div>
+                        <div class="demo-metrics">
+                            <div class="metric">155 <span>WPM</span></div>
+                            <div class="metric-label">Optimāls temps</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem-Solution Section -->
+    <section class="problem-solution">
+        <div class="container">
+            <div class="section-header">
+                <h2>Katram komunikācijas izaicinājumam<br>ir specifisks risinājums</h2>
+            </div>
+            <div class="personas-grid">
+                <!-- Persona 1: Artūrs -->
+                <div class="persona-card">
+                    <div class="persona-icon">💼</div>
+                    <h3>Artūrs - "The Closer"</h3>
+                    <p class="persona-role">B2B Pārdošanas Vadītājs</p>
+                    <div class="persona-pain">
+                        <span class="label">Problēma:</span>
+                        <p>Runā par daudz. Zaudē darījumus reālajā laikā. Bailes zaudēt kontroli.</p>
+                    </div>
+                    <div class="persona-solution">
+                        <span class="label">Risinājums:</span>
+                        <p><strong>Silent Companion Pro</strong> - Reāllaika luksofors Zoom zvaniem. Brīdinājumi, kad monologs par garu.</p>
+                    </div>
+                    <div class="persona-result">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M13.3333 4L6 11.3333L2.66667 8" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>€80K darījums slēgts</span>
+                    </div>
+                </div>
+
+                <!-- Persona 2: Kristīne -->
+                <div class="persona-card featured">
+                    <div class="persona-icon">🌟</div>
+                    <h3>Kristīne - "The Returner"</h3>
+                    <p class="persona-role">Atgriežas darbā pēc pārtraukuma</p>
+                    <div class="persona-pain">
+                        <span class="label">Problēma:</span>
+                        <p>"Baby brain". Imposter sindroms. Nav laika praktizēties intervijām.</p>
+                    </div>
+                    <div class="persona-solution">
+                        <span class="label">Risinājums:</span>
+                        <p><strong>Storytelling Architect + Safe Space</strong> - AI intervija, kas strukturē atbildes STAR formātā. Droša vide treniņiem.</p>
+                    </div>
+                    <div class="persona-result">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M13.3333 4L6 11.3333L2.66667 8" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Darbs iegūts, pārliecība atgriezta</span>
+                    </div>
+                </div>
+
+                <!-- Persona 3: Markuss -->
+                <div class="persona-card">
+                    <div class="persona-icon">⚡</div>
+                    <h3>Markuss - "The Last Minute"</h3>
+                    <p class="persona-role">Universitātes Students</p>
+                    <div class="persona-pain">
+                        <span class="label">Problēma:</span>
+                        <p>Prezentācija rīt. Nekā nav sagatavots. Bailes no publiskas pazemošanas.</p>
+                    </div>
+                    <div class="persona-solution">
+                        <span class="label">Risinājums:</span>
+                        <p><strong>Sprint Ticket</strong> - 30 minūtēs gatava prezentācija. AI ģenerē struktūru. Silent Companion telefonā diskrēti.</p>
+                    </div>
+                    <div class="persona-result">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M13.3333 4L6 11.3333L2.66667 8" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>7.5/10 atzīme, kurss nokārtots</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header centered">
+                <h2>Trīs funkcijas.<br>Viena mērķa: Tava pārliecība.</h2>
+            </div>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-number">01</div>
+                    <div class="feature-icon">✍️</div>
+                    <h3>Storytelling Architect</h3>
+                    <p class="feature-description">
+                        AI tevi intervē ar balss ievadi. Tu runā - AI strukturē. 
+                        Automātiski izveido runu SPIN, STAR vai Hero's Journey formātā.
+                    </p>
+                    <div class="feature-modes">
+                        <span class="mode">Profesionāls režīms (Pārdošana)</span>
+                        <span class="mode">Empātisks režīms (Intervijas)</span>
+                    </div>
+                    <div class="feature-time">⏱️ 15-20 minūtes</div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card highlight">
+                    <div class="feature-badge">Galvenā Funkcija</div>
+                    <div class="feature-number">02</div>
+                    <div class="feature-icon">🚦</div>
+                    <h3>Silent Companion Lite</h3>
+                    <p class="feature-description">
+                        Reāllaika luksofors tavam ekrānam. Analizē tempu (WPM), pauzes, "um/ah". 
+                        Vizuāli brīdinājumi - nekad netraucē runu.
+                    </p>
+                    <div class="traffic-light-demo">
+                        <div class="light-item">
+                            <div class="light green"></div>
+                            <span>120-160 WPM</span>
+                        </div>
+                        <div class="light-item">
+                            <div class="light yellow"></div>
+                            <span>Pielāgo tempu</span>
+                        </div>
+                        <div class="light-item">
+                            <div class="light red"></div>
+                            <span>Apstājies, jautā</span>
+                        </div>
+                    </div>
+                    <div class="feature-platforms">
+                        Desktop Widget (Zoom/Teams) + Mobile App
+                    </div>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-number">03</div>
+                    <div class="feature-icon">📊</div>
+                    <h3>Audio Analyzer</h3>
+                    <p class="feature-description">
+                        Pēc runas saņem detalizētu analīzi. Temps, pauzes, pildvārdi. 
+                        AI koučs adaptē tonalitāti - Drill Sergeant vai Therapist.
+                    </p>
+                    <div class="feature-metrics-preview">
+                        <div class="metric-item">
+                            <span class="metric-value">165 WPM</span>
+                            <span class="metric-name">Vidējais temps</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-value">8 "umm"</span>
+                            <span class="metric-name">Pildvārdi</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-value">57%</span>
+                            <span class="metric-name">Klienta laiks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header centered">
+                <h2>Kā tas strādā?</h2>
+                <p>Trīs soļi no trauksmes līdz darbībai</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Izvēlies Mērķi</h3>
+                    <p>Pārdošanas zvans, intervija vai prezentācija? AI aktivizē pareizo režīmu.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>AI Intervē Tevi</h3>
+                    <p>Runā brīvi. AI strukturē tavas domas gatavā runā. Bez "tukšās lapas" sindroma.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Praktizē vai Uzstājies</h3>
+                    <p>Trenējies Safe Space vai izmanto Silent Companion reālajā zvantā.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header centered">
+                <h2>Cena, kas pielāgojas tavām vajadzībām</h2>
+                <p>No eksperimenta līdz profesionālai lietošanai</p>
+            </div>
+            <div class="pricing-grid">
+                <!-- Freemium -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Freemium</h3>
+                        <div class="price">
+                            <span class="amount">€0</span>
+                            <span class="period">/ mūžīgi</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.6667 5L7.50001 14.1667L3.33334 10" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Audio Analyzer (pēc runas)
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.6667 5L7.50001 14.1667L3.33334 10" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Basic feedback
+                        </li>
+                        <li class="disabled">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M15 5L5 15M5 5L15 15" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Silent Companion
+                        </li>
+                        <li class="disabled">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M15 5L5 15M5 5L15 15" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Storytelling Architect
+                        </li>
+                    </ul>
+                    <a href="#" class="pricing-btn">Sākt Bezmaksas</a>
+                    <p class="pricing-note">Perfekts eksperimentēšanai</p>
+                </div>
+
+                <!-- Sprint Ticket -->
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Populārākais</div>
+                    <div class="pricing-header">
+                        <h3>Sprint Ticket</h3>
+                        <div class="price">
+                            <span class="amount">€9.99</span>
+                            <span class="period">/ 7 dienas</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.6667 5L7.50001 14.1667L3.33334 10" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Viss no Freemium
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.6667 5L7.50001 14.1667L3.33334 10" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Storytelling Architect
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.6667 5L7.50001 14.1667L3.33334 10" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Silent Companion (7 dienas)
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.6667 5L7.50001 14.1667L3.33334 10" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Safe Space Practice
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.6667 5L7.50001 14.1667L3.33334 10" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Sprint Mode (30 min setup)
+                        </li>
+                    </ul>
+                    <a href="#" class="pricing-btn primary">Iegādāties</a>
+                    <p class="pricing-note">Ideāls: Intervija rīt, prezentācija pirmdien</p>
+                </div>
+
+                <!-- Pro -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="amount">€12</span>
+                            <span class="period">/ mēnesī</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.6667 5L7.50001 14.1667L3.33334 10" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Viss no Sprint Ticket
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.6667 5L7.50001 14.1667L3.33334 10" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Neierobežots Silent Companion
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.6667 5L7.50001 14.1667L3.33334 10" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Advanced Analytics
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.6667 5L7.50001 14.1667L3.33334 10" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Drill Sergeant režīms
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.6667 5L7.50001 14.1667L3.33334 10" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Priority atbalsts
+                        </li>
+                    </ul>
+                    <a href="#" class="pricing-btn">Sākt 7 dienu trial</a>
+                    <p class="pricing-note">Pārdošanas profesionāļiem</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="social-proof">
+        <div class="container">
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="testimonial-quote">"Silent Companion man palīdzēja slēgt €80K darījumu. Es redzēju, kad runāju par daudz, un apstājos. Klients sāka runāt. Deal done."</div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div>
+                            <div class="author-name">Artūrs K.</div>
+                            <div class="author-role">B2B Sales Manager</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-quote">"Storytelling Architect man palīdzēja atcerēties, kas es esmu profesionāli. 15 minūtēs man bija STAR atbilde. Dabūju darbu."</div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">K</div>
+                        <div>
+                            <div class="author-name">Kristīne L.</div>
+                            <div class="author-role">Marketing Manager</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-quote">"11 vakarā, prezentācija 10 no rīta. Sprint Ticket mani izglāba. 30 minūtes, gatava prezentācija. Dabūju 7.5. Worth it."</div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div>
+                            <div class="author-name">Markuss P.</div>
+                            <div class="author-role">LU Students</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Gatavs transformēt trauksmi darbībā?</h2>
+                <p>Sāc ar bezmaksas Audio Analyzer. Upgrade, kad esi gatavs.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn-primary large">
+                        <span>Sākt Bezmaksas</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="btn-secondary large">
+                        <span>Skatīt Cenas</span>
+                    </a>
+                </div>
+                <p class="cta-note">Nav nepieciešama kredītkarte • 7 dienu naudas atgriešanas garantija</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🎤</span>
+                        <span class="logo-text">Pitch Perfect</span>
+                    </div>
+                    <p>AI komunikācijas treneris, kas pielāgojas tavai situācijai.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Produkts</h4>
+                        <a href="#features">Funkcijas</a>
+                        <a href="#pricing">Cenas</a>
+                        <a href="#">Dokumentācija</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Uzņēmums</h4>
+                        <a href="#">Par mums</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Kontakti</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Juridiskais</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">GDPR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pitch Perfect. Vairāk nekā runas treneris.</p>
+                <p>Built with ❤️ for StartSchool</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
